@@ -21,15 +21,25 @@ body{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
 }
+#upld{
+    margin: 0;
+    display: flex;
+}
 .storyimg {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:cover;
+    margin: 0;
 }
 .storyimgbtn{
-    width: 60px;
-    height: 60px;
+     width: 62px;
+    height: 62px;
     border-radius: 50%;
-     object-fit: cover
+    padding: 0;
+    border: 3px solid rgb(230, 27, 95);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
