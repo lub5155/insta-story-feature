@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(10, 10, 10);
+}
+.disp{
+    padding: 10px;
+    width:30%;
+    height: 500px;
+    background-color: rgb(198, 198, 198);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.stor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
