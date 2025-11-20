@@ -9,9 +9,12 @@ function getImage(event) {
         var base64Image = reader.result;   // this is the base64 image
         console.log(base64Image);
         document.getElementById("upld").innerHTML+=`<div>
-        <button class="storyimgbtn"><img class="storyimg" src="${base64Image}"></button>
+        <button class="storyimgbtn" onclick="open()"><img class="storyimg" src="${base64Image}"></button>
         </div>
         `
     };
     reader.readAsDataURL(file);
+}
+function open(){
+    
 }
